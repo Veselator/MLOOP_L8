@@ -65,13 +65,13 @@ namespace MLOOP_L8
                 return Math.Sqrt(s * (s - a) * (s - b) * (s - c));
             };
 
-            Func<double, double, double> rectangleCalculator = (a, b) =>
+            Func<double, double, double> rectangleArea = (a, b) =>
             {
                 return a * b;
             };
 
             Console.WriteLine(" Площа трикутника:" + triangleArea(4, 3, 5));
-            Console.WriteLine(" Площа прямокутника:" + rectangleCalculator(10, 20));
+            Console.WriteLine(" Площа прямокутника:" + rectangleArea(10, 20));
 
             // ЗАВДАННЯ №8.2
             Suitcase valiza = new Suitcase("EuroHome", 4.1, 93, Color.Yellow, TexturePattern.Solid);
