@@ -47,7 +47,7 @@ namespace MLOOP_L8
             Console.WriteLine(" До:\t" + window.ToString());
 
             DatePrinter.PrintCurrentHour(Console.WriteLine);
-            DatePrinter.PrintCurrentHour(x => window.Title = x);
+            DatePrinter.PrintCurrentTime(x => window.Title = x);
 
             Console.WriteLine(" Після:\t" + window.ToString());
             Console.WriteLine();
