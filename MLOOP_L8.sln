@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLOOP_L8", "MLOOP_L8.csproj", "{150F655C-A5FD-4EE3-B01F-E0DEB4909D60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{150F655C-A5FD-4EE3-B01F-E0DEB4909D60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{150F655C-A5FD-4EE3-B01F-E0DEB4909D60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{150F655C-A5FD-4EE3-B01F-E0DEB4909D60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{150F655C-A5FD-4EE3-B01F-E0DEB4909D60}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5D903C8F-4EAB-4F58-AFDB-B74CD4D56359}
+	EndGlobalSection
+EndGlobal
