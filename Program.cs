@@ -111,10 +111,12 @@ namespace MLOOP_L8
             };
 
             items.Sort();
-
-            foreach (Item item in items)
+            if (!valiza.AddItems(items))
             {
-                if (!valiza.AddItem(item)) break;
+                foreach (Item item in items)
+                {
+                    if (!valiza.AddItem(item)) break;
+                }
             }
 
             Console.WriteLine("\n" + valiza.ToString());
