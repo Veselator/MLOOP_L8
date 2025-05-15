@@ -1,6 +1,6 @@
 ﻿namespace MLOOP_L8
 {
-    public class Item
+    public class Item : IComparable<Item>
     {
         private string name;
         private double weight;
@@ -42,6 +42,14 @@
             name = "Книга";
             weight = 2.74;
             volume = 16.3;
+        }
+
+        public int CompareTo(Item other)
+        {
+            if (other == null)
+                return 1;
+
+            return Weight.CompareTo(other.Weight);
         }
 
         public override string ToString()
